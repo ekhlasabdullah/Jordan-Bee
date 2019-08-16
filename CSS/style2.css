@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	font-family: 'Slabo 27px', serif;
+
+}
+.container{
+	margin: auto;
+	width: auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+	grid-auto-rows: 100px;
+}
+header{
+	background-color: #fff;
+	grid-column:1/5;
+	grid-row:1;
+
+}
+header{
+	position: fixed;
+	top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    
+}
+
+.logo{
+	float: left;
+	margin-left:40px;
+}
+.nav{
+	float: left;
+	margin-left: 100px;
+	line-height: 140px;
+
+}
+.nav a{
+	text-decoration: none;
+	color: #3399FF;
+	padding: 30px;
+}
+.social{
+	float: right;
+	line-height: 140px;
+	margin-right: 40px;
+}
+iframe{
+	grid-column:1/5;
+	grid-row:3/7;
+
+}
+.cont1{
+	grid-column: 1/5;
+	grid-row:8/14;
+	background-color:#F0F8FF;
+}
+#cont1{
+	float: left;
+}
+
+
+.cont1 h2{
+	font-size: 40px;
+	text-align: center;
+	padding: 40px;
+}
+#form3{
+	padding-left: 200px;
+}
+#form3 input,textarea,button{
+	width: 250px;
+	height: 35px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+#form4{
+	float: right;
+	padding: 200px;
+
+}
+
+#form4 img{
+	width: 20px;
+	height: 20px;
+}
+
+
+.footer1{
+	grid-column: 1/5;
+	grid-row: 14;
+	color: #0080ff;
+	
+
+}
+.footer1 a{
+	text-decoration: none;
+	color: #0080ff;	 
+}
+#Privacy{
+	float: left;
+	margin-left: 100px;
+}
+
+#copyright{
+	float: right;
+	margin-right: 100px;
+}
