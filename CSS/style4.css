@@ -41,6 +41,10 @@ header{
 	text-decoration: none;
 	color: #3399FF;
 	padding: 40px;
+	font-size: 23px;
+}
+.nav a:hover{
+	color: #000;
 }
 
 #gal1{

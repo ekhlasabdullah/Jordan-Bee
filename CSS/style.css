@@ -42,6 +42,10 @@ header{
 	text-decoration: none;
 	color: #3399FF;
 	padding: 40px;
+	font-size: 23px;
+}
+.nav a:hover{
+	color: #000;
 }
 
 
@@ -51,13 +55,13 @@ section{
 }
 #cover img{
 	width: 100%;
-	height: 750px;
+	height: 650px;
 }
 
    .mainimg{
    	grid-column:1/2;
-	grid-row:9/12;
-	margin-left: 100px;
+	grid-row:8/12;
+	margin-left: 120px;
    	
    }
    .mainimg img{
@@ -68,9 +72,9 @@ section{
    }
    .mainpar{
    	grid-column:2/5;
-	grid-row:9/12;
+	grid-row:8/12;
 	margin-left: 100px;
-	margin-right: 100px;
+	
    	
    }
 
@@ -83,11 +87,11 @@ section{
 	color:#3399FF;
 	font-size: 24px;
 	margin-right: 100px;
-
+    letter-spacing: 1px;
 }
 #section1{
 	grid-column: 1/5;
-	 grid-row: 13/14;
+	 grid-row: 12/13;
 	
 
 }
@@ -104,64 +108,83 @@ section{
 
 .cont{
 	grid-column:1/2;
-	grid-row: 14/16;
-	margin-left: 50px;
+	grid-row: 13/16;
+	margin-left: 100px;
+	height: 300px;
 
+
+}
+.inner{
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	transition: all 0.5s ease;
 }
 .cont1{
 	grid-column: 2/3;
-	grid-row: 14/16;
+	grid-row: 13/16;
+	height: 300px;
 }
 
 .cont2{
 	grid-column:3/4;
-	grid-row: 14/16;
+	grid-row: 13/16;
+	height: 300px;
 	}
 .cont3{
 	grid-column:1/2 ;
-	grid-row: 18/20;
-	margin-left: 50px;
+	grid-row: 17/20;
+	margin-left: 100px;
+	height: 300px;
 }
 .cont4{
 	grid-column: 2/3;
-	grid-row: 18/20;
+	grid-row: 17/20;
+	height: 300px;
 	
 }
 .cont5{
 	grid-column: 3/4;
-	grid-row: 18/20;
+	grid-row: 17/20;
+	height: 300px;
 	}
 .cont6{
 	grid-column: 1/2;
-	grid-row: 22/24;
-	margin-left: 50px;
+	grid-row: 21/24;
+	margin-left: 100px;
+	height: 300px;
 	
 	
 }
 .cont7{
 	grid-column: 2/3;
-	grid-row: 22/24;
+	grid-row: 21/24;
+	height: 300px;
 	
 }
 .cont8{
 	grid-column: 3/4;
-	grid-row: 22/24;
+	grid-row: 21/24;
+	height: 300px;
 	
 	}
 .cont9{
 	grid-column: 1/2;
-	grid-row: 26/28;
-	margin-left: 50px;
+	grid-row: 25/28;
+	margin-left: 100px;
+	height: 300px;
 	
 	
 }
 .cont10{
 	grid-column: 2/3;
-	grid-row: 26/28;
+	grid-row: 25/28;
+	height: 300px;
 	}
 .cont11{
 	grid-column: 3/4;
-	grid-row: 26/28;
+	grid-row: 25/28;
+	height: 300px;
 	}		
 
 
@@ -184,8 +207,9 @@ section{
 }
 .hotels{
 	grid-column: 1/5;
-	grid-row: 30/37;
+	grid-row: 29/32;
 	background-color:#F0F8FF;
+	text-align: center;
 
 }
 .hotels h2{
@@ -200,7 +224,7 @@ section{
 }
 .resturant{
 	grid-column: 1/5;
-	grid-row: 38;
+	grid-row: 33;
 }
 .resturant h2{
 	text-align: center;
@@ -217,40 +241,40 @@ section{
 }
 #r1{
 	grid-column: 1/2;
-	grid-row: 39/41;
+	grid-row: 34/36;
 	margin-left: 100px;
 
 }
 #r2{
 	grid-column: 2/3;
-	grid-row: 39/41;
+	grid-row: 34/36;
 
 }
 #r3{
 	grid-column: 3/4;
-	grid-row: 39/41;
+	grid-row: 34/36;
 	}
 #r4{
 	grid-column: 1/2;
-	grid-row: 42/45;
+	grid-row: 37/41;
     margin-left: 100px;
 
 
 }
 #r5{
 	grid-column: 2/3;
-	grid-row: 42/45;
+	grid-row: 37/41;
 	
 
 }
 #r6{
 	grid-column: 3/4;
-	grid-row: 42/45;
+	grid-row: 37/39;
 
 }
 .form{
 	grid-column: 1/5;
-	grid-row: 45/50;
+	grid-row: 40/45;
 	border-radius: 5px;
 	background-color:#fff;
 	padding: 20px;
@@ -366,7 +390,7 @@ section{
 
 footer{
 	grid-column: 1/5;
-	grid-row:51/52 ;
+	grid-row:45/47 ;
 	color: #0080ff;
 	}
 footer a{

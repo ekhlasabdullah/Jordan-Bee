@@ -41,6 +41,10 @@ header{
 	text-decoration: none;
 	color: #3399FF;
 	padding: 40px;
+	font-size: 23px;
+}
+.nav a:hover{
+	color: #000;
 }
 
 #serv1{
@@ -70,6 +74,7 @@ header{
 	padding: 80px;
 	font-size: 27px;
 }
+
 #ser5{
 	grid-column:3/5;
 	grid-row:11;
